@@ -1,0 +1,9 @@
+server:
+  port: 9001
+
+#配置hystris监控中心 解决访问404
+management:
+  endpoints: 
+    web:
+      exposure:
+        include: '*'    
